@@ -1,10 +1,10 @@
 class Persona(object):
     """Clase persona"""
     def __init__(self):
-        self.nombre = ""
+        self._name = ""
 
-    def set_name(self,name):
-        self.name = name
+    def set_name(self, name):
+        self._name = name
 
     def get_name(self):
-        return self.name
+        return self._name
